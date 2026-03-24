@@ -1,7 +1,9 @@
+//basically assigning variables to elements
 const customName = document.getElementById('customname');
 const randomize = document.querySelector('.randomize');
 const story = document.querySelector('.story');
 
+//floor returns it as an integer so the random num of the array isn't a decimal
 function randomValueFromArray(array){
   const random = Math.floor(Math.random()*array.length);
   return array[random];
