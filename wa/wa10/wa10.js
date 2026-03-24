@@ -1,4 +1,4 @@
-//basically assigning variables to elements
+//basically assigning variables to elements in the html file
 const customName = document.getElementById('customname');
 const randomize = document.querySelector('.randomize');
 const story = document.querySelector('.story');
@@ -9,6 +9,7 @@ function randomValueFromArray(array){
   return array[random];
 }
 
+//more variable assignments, this time they're strings of daya that can be put together with code below
 const storyText = 'It was 63 fahrenheit outside, so :insertx: went to go fly to a fun place. When they got to :inserty:, they looked blankly at the situation, not a single thought in their head, then :insertz:. Schlorbo saw the whole thing, and was spooked, knowing that :insertx: weighed 2 pounds. It was a freaky day.';
 const insertX = ['Five Pebbles', 'Looks to the Moon', 'Slugcat'];
 const insertY = ['the Shaded Citadel', 'the Shoreline', 'the Subterranean'];
